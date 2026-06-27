@@ -1,4 +1,4 @@
-import BioPage from "@/pages/BioPage";
+import BioPage from "@/components/BioPage";
 
 export default function Home() {
   return <BioPage />;
