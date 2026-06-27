@@ -1,14 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // <-- THÊM DÒNG NÀY
+  output: 'export',  // <-- PHẢI CÓ DÒNG NÀY
   images: {
-    unoptimized: true, // <-- THÊM DÒNG NÀY
+    unoptimized: true,
   },
-  trailingSlash: true, // <-- THÊM DÒNG NÀY
-  turbopack: {
-    root: process.cwd(),
-  },
+  trailingSlash: true,
 };
 
 export default nextConfig;
